@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav{
+  width: 100%;
+  height: 55px;
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav h2{
+  color: white;
+  font-family: 'Inter' , sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav--icon{
+  margin-right: 10px;
+}
+
+.card--container{
+  width: 1440px;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card--img{
+  width: 200px;
+  height: 268px;
+  border-radius: 20px;
+}
+
+.img{
+  width: 200px;
+  height: 268px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card--info{
+  font-family: 'Inter' , sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.p--txt{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.h1--txt{
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.h4--bold{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.h4--normal{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+
+.h4--link{
+  font-size: 20px;
+  font-weight: 300;
+  color: #918E9B;
+  text-decoration: underline;
+  margin-left: 16px;
+}
+
+.card--info{
+  margin-left: 32px;
+  width: 500px;
+  height: auto;
+}
+
+.card--location{
+  display: flex;
+  align-items: center;
+}
+
+.card--city{
+  margin-left: 5px;
+}
+.card--description{
+  margin-top: -15px;
+}
